@@ -1,0 +1,20 @@
+
+.app-header {
+  background-color: #282c34;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.global-components-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  color: white;
+  .audio-component{
+    position: absolute;
+    top: 66%;
+    left: 47%
+  }
+}
